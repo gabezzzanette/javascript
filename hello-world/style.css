@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(96, 138, 124);
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(232, 153, 141);
+    text-shadow: -1px 0 black, 0 1px black,
+    1px 0 black, 0 -1px black,
+    0.2em 0.5em 0.1em rgb(110, 96, 96),
+    0.4em -0.3em 0.1em rgb(142, 194, 196);
+}
+
+h2 {
+    color:azure;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 0 0 0.2em rgb(238, 210, 204),
+    0 0 0.2em rgb(238, 210, 204),
+    0 0 0.2em rgb(238, 210, 204); /* efeito neon*/
+}
+
+.button {
+    height:60px;
+    width: 130px;
+    border-color: #40bcdb;
+    color: rgb(215, 230, 197);
+    border-radius: 40px;
+    box-shadow: 0 0 40px 40px #5e90b1 inset, 0 0 0 0 #274253;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+}
+
+.button:hover {
+    box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+}
